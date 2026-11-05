@@ -1,6 +1,11 @@
-<!-- Custom Animated Split Banner (White/Black with Yellow Lightning) -->
+<!-- Premium Text Header (No broken images, pure HTML) -->
 <div align="center">
-  <img src="https://svgur.com/i/2z3.svg" alt="X-map-arch Animated Banner" width="100%" style="border-radius: 8px; border: 1px solid #30363d;" />
+  <h1 style="font-family: 'Fira Code', monospace; font-size: 50px; font-weight: bold; margin-bottom: 0px;">
+    <span style="color: #ffffff;">X-map-</span><span style="color: #FFD700;">arch</span>
+  </h1>
+  <p style="font-family: 'Segoe UI', sans-serif; font-size: 16px; color: #8b949e; letter-spacing: 2px; margin-top: 5px;">
+    Phantom in the System
+  </p>
 </div>
 
 <!-- Profile Info & Badges -->
