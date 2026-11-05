@@ -1,9 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg"
-     width="100%" height="200"
-     viewBox="0 0 728 132" preserveAspectRatio="xMidYMid meet">
+     width="100%" height="100"
+     viewBox="0 0 728 100" preserveAspectRatio="xMidYMid meet">
 
 <defs>
-
  <!-- OBSIDIAN BLACK BACKGROUND -->
  <radialGradient id="bg" cx="48%" cy="40%" r="85%">
    <stop stop-color="#11151a"/>
@@ -32,8 +31,7 @@
  </linearGradient>
 
  <!-- ELECTRIC GLOW -->
- <filter id="glow" x="-30%" y="-200%"
-         width="160%" height="500%">
+ <filter id="glow" x="-30%" y="-200%" width="160%" height="500%">
    <feGaussianBlur stdDeviation="3" result="b"/>
    <feMerge>
      <feMergeNode in="b"/>
@@ -42,146 +40,56 @@
  </filter>
 
  <clipPath id="clip">
-   <rect width="728" height="132"/>
+   <rect width="728" height="100"/>
  </clipPath>
-
 </defs>
 
 <g clip-path="url(#clip)">
-
  <!-- BACKGROUND -->
- <rect width="728" height="132" fill="url(#bg)"/>
+ <rect width="728" height="100" fill="url(#bg)"/>
 
  <!-- SUBTLE OBSIDIAN CRACKS -->
- <g fill="none" stroke="#414951"
-    stroke-width=".7" opacity=".2">
-   <path d="M0 15L35 19 48 13 70 24 91 20
-            M650 9L668 17 683 12 706 26 728 21
-            M0 112L23 105 39 114 58 108
-            M660 116L679 107 696 113 728 102"/>
+ <g fill="none" stroke="#414951" stroke-width=".7" opacity=".2">
+   <path d="M0 15L35 19 48 13 70 24 91 20 M650 9L668 17 683 12 706 26 728 21 M0 85L23 78 39 87 58 81 M660 89L679 80 696 86 728 75"/>
  </g>
 
  <!-- TEXT SHADOW -->
- <g font-family="Segoe UI,Arial,sans-serif"
-    font-weight="900" filter="url(#glow)">
-
-   <text x="15" y="103" font-size="120"
-         fill="#000"
-         textLength="405"
-         lengthAdjust="spacingAndGlyphs">X-map-</text>
-
-   <text x="428" y="103" font-size="120"
-         fill="#000"
-         textLength="240"
-         lengthAdjust="spacingAndGlyphs">arch</text>
-
+ <g font-family="Segoe UI,Arial,sans-serif" font-weight="900" filter="url(#glow)">
+   <text x="15" y="75" font-size="85" fill="#000" textLength="405" lengthAdjust="spacingAndGlyphs">X-map-</text>
+   <text x="428" y="75" font-size="85" fill="#000" textLength="240" lengthAdjust="spacingAndGlyphs">arch</text>
  </g>
 
  <!-- SILVER TEXT -->
- <g font-family="Segoe UI,Arial,sans-serif"
-    font-weight="900">
-
-   <text x="12" y="101"
-         font-size="120"
-         fill="url(#silver)"
-         stroke="#dce2e9"
-         stroke-width=".45"
-         textLength="405"
-         lengthAdjust="spacingAndGlyphs">X-map-</text>
-
+ <g font-family="Segoe UI,Arial,sans-serif" font-weight="900">
+   <text x="12" y="73" font-size="85" fill="url(#silver)" stroke="#dce2e9" stroke-width=".45" textLength="405" lengthAdjust="spacingAndGlyphs">X-map-</text>
    <!-- GOLD TEXT -->
-   <text x="425" y="101"
-         font-size="120"
-         fill="url(#gold)"
-         stroke="#d9ae3b"
-         stroke-width=".45"
-         textLength="240"
-         lengthAdjust="spacingAndGlyphs">arch</text>
-
+   <text x="425" y="73" font-size="85" fill="url(#gold)" stroke="#d9ae3b" stroke-width=".45" textLength="240" lengthAdjust="spacingAndGlyphs">arch</text>
  </g>
 
  <!-- LEFT TO RIGHT REALISTIC LIGHTNING -->
- <g fill="none"
-    stroke-linecap="round"
-    stroke-linejoin="round"
-    filter="url(#glow)">
-
+ <g fill="none" stroke-linecap="round" stroke-linejoin="round" filter="url(#glow)">
    <!-- OUTER ELECTRIC BLUE GLOW -->
-   <path id="bolt"
-     d="M-15 65 L35 57 58 65 82 47 105 64 130 54 155 68 181 43 204 61 228 53 253 68 278 45 300 63 324 50 348 68 373 42 397 61 421 51 446 68 470 43 494 62 518 49 542 68 566 42 590 62 615 51 640 68 664 43 689 62 713 50 743 65"
-     stroke="#58aaff"
-     stroke-width="10"
-     pathLength="1000"
-     stroke-dasharray="1000"
-     stroke-dashoffset="1000"
-     opacity="0">
-
-     <animate attributeName="stroke-dashoffset"
-       values="1000;0;0;1000"
-       keyTimes="0;.64;.78;1"
-       dur="4.5s"
-       repeatCount="indefinite"/>
-
-     <animate attributeName="opacity"
-       values="0;1;1;0"
-       keyTimes="0;.08;.78;1"
-       dur="4.5s"
-       repeatCount="indefinite"/>
-
+   <path id="bolt" d="M-15 45 L35 40 58 45 82 33 105 44 130 38 155 48 181 30 204 43 228 38 253 48 278 32 300 44 324 35 348 48 373 30 397 43 421 36 446 48 470 30 494 44 518 35 542 48 566 30 590 43 615 36 640 48 664 30 689 43 713 35 743 45" stroke="#58aaff" stroke-width="8" pathLength="1000" stroke-dasharray="1000" stroke-dashoffset="1000" opacity="0">
+     <animate attributeName="stroke-dashoffset" values="1000;0;0;1000" keyTimes="0;.64;.78;1" dur="4.5s" repeatCount="indefinite"/>
+     <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;.08;.78;1" dur="4.5s" repeatCount="indefinite"/>
    </path>
 
    <!-- BRIGHT WHITE LIGHTNING -->
-   <path
-     d="M-15 65 L35 57 58 65 82 47 105 64 130 54 155 68 181 43 204 61 228 53 253 68 278 45 300 63 324 50 348 68 373 42 397 61 421 51 446 68 470 43 494 62 518 49 542 68 566 42 590 62 615 51 640 68 664 43 689 62 713 50 743 65"
-     stroke="#fff"
-     stroke-width="3.5"
-     pathLength="1000"
-     stroke-dasharray="1000"
-     stroke-dashoffset="1000"
-     opacity="0">
-
-     <animate attributeName="stroke-dashoffset"
-       values="1000;0;0;1000"
-       keyTimes="0;.64;.78;1"
-       dur="4.5s"
-       repeatCount="indefinite"/>
-
-     <animate attributeName="opacity"
-       values="0;1;1;0"
-       keyTimes="0;.08;.78;1"
-       dur="4.5s"
-       repeatCount="indefinite"/>
-
+   <path d="M-15 45 L35 40 58 45 82 33 105 44 130 38 155 48 181 30 204 43 228 38 253 48 278 32 300 44 324 35 348 48 373 30 397 43 421 36 446 48 470 30 494 44 518 35 542 48 566 30 590 43 615 36 640 48 664 30 689 43 713 35 743 45" stroke="#fff" stroke-width="2.5" pathLength="1000" stroke-dasharray="1000" stroke-dashoffset="1000" opacity="0">
+     <animate attributeName="stroke-dashoffset" values="1000;0;0;1000" keyTimes="0;.64;.78;1" dur="4.5s" repeatCount="indefinite"/>
+     <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;.08;.78;1" dur="4.5s" repeatCount="indefinite"/>
    </path>
 
    <!-- LIGHTNING BRANCHES -->
-   <g stroke="#fff"
-      stroke-width="2"
-      opacity="0">
-
-     <path d="M82 47L74 27 90 16 M155 68L144 87 157 103 M278 45L269 24 286 13 M373 42L359 20 377 8 M470 43L483 23 474 12 M566 42L555 21 570 10 M664 43L677 23 668 12"/>
-
-     <animate attributeName="opacity"
-       values="0;0;1;1;0"
-       keyTimes="0;.08;.64;.78;1"
-       dur="4.5s"
-       repeatCount="indefinite"/>
-
+   <g stroke="#fff" stroke-width="1.5" opacity="0">
+     <path d="M82 33L74 18 90 10 M155 48L144 65 157 75 M278 32L269 16 286 8 M373 30L359 14 377 6 M470 30L483 15 474 8 M566 30L555 14 570 6 M664 30L677 16 668 8"/>
+     <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;.08;.64;.78;1" dur="4.5s" repeatCount="indefinite"/>
    </g>
-
  </g>
 
  <!-- ELECTRIC FLASH AT THE END -->
- <rect width="728" height="132"
-       fill="#fff" opacity="0">
-
-   <animate attributeName="opacity"
-     values="0;0;0.12;0;0"
-     keyTimes="0;.64;.67;.71;1"
-     dur="4.5s"
-     repeatCount="indefinite"/>
-
+ <rect width="728" height="100" fill="#fff" opacity="0">
+   <animate attributeName="opacity" values="0;0;0.12;0;0" keyTimes="0;.64;.67;.71;1" dur="4.5s" repeatCount="indefinite"/>
  </rect>
-
 </g>
 </svg>
