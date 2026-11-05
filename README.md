@@ -1,12 +1,6 @@
-<!-- Premium Split Animated Header (Working Version) -->
+<!-- Custom Premium Animated Banner -->
 <div align="center">
-  <!-- Dark Header with Yellow Text -->
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=0d1117,000000&height=150&section=header&text=X-map-arch&fontSize=60&fontColor=FFD700&animation=twinkling&desc=PHANTOM%20IN%20THE%20SYSTEM&descAlignY=75&descSize=16&descColor=8b949e" width="100%" />
-  
-  <!-- Typing Animation (Simulating the split and lightning) -->
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=24&pause=1000&color=FFD700&background=FFFFFF00&center=true&vCenter=true&width=600&lines=Securing+the+Wireless+Waves+⚡;X-MAP-Auto-Phantom+Developer" alt="Typing SVG" />
-  </a>
+  <img src="banner.svg" alt="X-map-arch Banner" width="100%" style="border-radius: 8px; margin-bottom: 20px;" />
 </div>
 
 <!-- Profile Info & Badges -->
@@ -16,7 +10,6 @@
     <b>Cybersecurity</b> | <b>Penetration Testing</b> | <b>Systems</b>
   </p>
   
-  <!-- Real-time Views & Followers -->
   <img src="https://komarev.com/ghpvc/?username=X-map-arch&color=FFD700&style=for-the-badge&label=PROFILE+VIEWS" alt="Profile Views">
   &nbsp;
   <img src="https://img.shields.io/badge/FOLLOWERS-2-FFD700?style=for-the-badge&labelColor=161b22" alt="Followers">
