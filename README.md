@@ -34,16 +34,17 @@
 <!-- Profile Info & Badges -->
 <div align="center">
   <br>
-  <!-- Glowing Logo (Static but with a nice shadow) -->
+  <!-- Glowing Logo -->
   <img src="logo.png" alt="Logo" width="130" style="border-radius: 50%; border: 2px solid #FFD700; box-shadow: 0px 0px 20px rgba(255, 215, 0, 0.3);" />
   <br><br>
   <p style="font-family: 'Segoe UI', sans-serif; font-size: 18px; color: #c9d1d9; letter-spacing: 1px;">
     <b>Cybersecurity</b> | <b>Penetration Testing</b> | <b>Systems</b>
   </p>
   
-  <img src="https://img.shields.io/badge/PROFILE_VIEWS-50-FFD700?style=for-the-badge&labelColor=161b22" alt="Views">
+  <!-- Dynamic Profile Views & Real Followers -->
+  <img src="https://komarev.com/ghpvc/?username=X-map-arch&color=FFD700&style=for-the-badge&label=PROFILE+VIEWS" alt="Profile Views">
   &nbsp;
-  <img src="https://img.shields.io/badge/FOLLOWERS-13-FFD700?style=for-the-badge&labelColor=161b22" alt="Followers">
+  <img src="https://img.shields.io/badge/FOLLOWERS-2-FFD700?style=for-the-badge&labelColor=161b22" alt="Followers">
 </div>
 
 <br>
