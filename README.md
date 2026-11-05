@@ -1,14 +1,17 @@
 <!-- Custom Premium Obsidian Banner -->
 <div align="center">
-  <img src="banner.svg" alt="X-map-arch Banner" width="100%" style="margin-bottom: 15px;" />
+  <img src="banner.svg" alt="X-map-arch Banner" width="100%" style="margin-bottom: 10px;" />
+</div>
+
+<!-- Animated Typing Subtitle (Replaced the plain text) -->
+<div align="center">
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=18&pause=1000&color=FFD700&center=true&vCenter=true&width=500&lines=Cybersecurity+%7C+Penetration+Testing;Systems+%7C+Ethical+Hacking;Securing+the+Wireless+Waves" alt="Typing SVG" />
+  </a>
 </div>
 
 <!-- Profile Info & Badges -->
 <div align="center">
-  <p style="font-family: 'Segoe UI', sans-serif; font-size: 16px; color: #c9d1d9; letter-spacing: 1px;">
-    <b>Cybersecurity</b> | <b>Penetration Testing</b> | <b>Systems</b>
-  </p>
-  
   <img src="https://komarev.com/ghpvc/?username=X-map-arch&color=FFD700&style=for-the-badge&label=PROFILE+VIEWS" alt="Profile Views">
   &nbsp;
   <img src="https://img.shields.io/badge/FOLLOWERS-2-FFD700?style=for-the-badge&labelColor=161b22" alt="Followers">
