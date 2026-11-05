@@ -1,78 +1,187 @@
-<svg width="100%" height="220" viewBox="0 0 900 220" xmlns="http://www.w3.org/2000/svg">
-  <!-- Background -->
-  <rect width="100%" height="100%" fill="#0d1117" />
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="100%" height="200"
+     viewBox="0 0 728 132" preserveAspectRatio="xMidYMid meet">
 
-  <!-- Filters for Lightning Glow -->
-  <defs>
-    <filter id="electric" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur in="SourceGraphic" stdDeviation="3" result="blur" />
-      <feMerge>
-        <feMergeNode in="blur" />
-        <feMergeNode in="SourceGraphic" />
-      </feMerge>
-    </filter>
-  </defs>
+<defs>
 
-  <!-- 3D Shadow for Text -->
-  <text x="380" y="120" font-family="'Segoe UI', Arial, sans-serif" font-size="80" font-weight="900" fill="#000000" text-anchor="end" letter-spacing="1" opacity="0.8">X-map-</text>
-  <text x="390" y="120" font-family="'Segoe UI', Arial, sans-serif" font-size="80" font-weight="900" fill="#000000" text-anchor="start" letter-spacing="1" opacity="0.8">arch</text>
+ <!-- OBSIDIAN BLACK BACKGROUND -->
+ <radialGradient id="bg" cx="48%" cy="40%" r="85%">
+   <stop stop-color="#11151a"/>
+   <stop offset=".55" stop-color="#050608"/>
+   <stop offset="1" stop-color="#000"/>
+ </radialGradient>
 
-  <!-- Main Text: X-map- (White) -->
-  <text x="380" y="118" font-family="'Segoe UI', Arial, sans-serif" font-size="80" font-weight="900" fill="#ffffff" text-anchor="end" letter-spacing="1">X-map-</text>
-  
-  <!-- Main Text: arch (Gold/Yellow) -->
-  <text x="390" y="118" font-family="'Segoe UI', Arial, sans-serif" font-size="80" font-weight="900" fill="#FFD700" text-anchor="start" letter-spacing="1">arch</text>
+ <!-- METALLIC SILVER -->
+ <linearGradient id="silver" x2=".15" y2="1">
+   <stop stop-color="#fff"/>
+   <stop offset=".2" stop-color="#cbd0d7"/>
+   <stop offset=".35" stop-color="#f9fbff"/>
+   <stop offset=".55" stop-color="#777f89"/>
+   <stop offset=".75" stop-color="#e9edf2"/>
+   <stop offset="1" stop-color="#737b85"/>
+ </linearGradient>
 
-  <!-- Subtitle -->
-  <text x="450" y="165" font-family="'Fira Code', monospace" font-size="18" fill="#8b949e" text-anchor="middle" letter-spacing="8">PHANTOM IN THE SYSTEM</text>
+ <!-- METALLIC GOLD -->
+ <linearGradient id="gold" x2=".1" y2="1">
+   <stop stop-color="#fff0a6"/>
+   <stop offset=".2" stop-color="#d9ad32"/>
+   <stop offset=".35" stop-color="#ffe36b"/>
+   <stop offset=".55" stop-color="#966800"/>
+   <stop offset=".78" stop-color="#e7b92f"/>
+   <stop offset="1" stop-color="#684400"/>
+ </linearGradient>
 
-  <!-- REALISTIC LEFT TO RIGHT LIGHTNING (Your Provided Code) -->
-  <g fill="none" stroke-linecap="round" stroke-linejoin="round" transform="translate(0, 40)">
-    
-    <!-- Outer Electric Blue Glow -->
-    <path
-      d="M -15 65 L 35 57 L 58 65 L 82 47 L 105 64 L 130 54 L 155 68 L 181 43 L 204 61 L 228 53 L 253 68 L 278 45 L 300 63 L 324 50 L 348 68 L 373 42 L 397 61 L 421 51 L 446 68 L 470 43 L 494 62 L 518 49 L 542 68 L 566 42 L 590 62 L 615 51 L 640 68 L 664 43 L 689 62 L 713 50 L 743 65"
-      pathLength="1000"
-      stroke="#56aaff"
-      stroke-width="11"
-      opacity="0"
-      stroke-dasharray="1000"
-      stroke-dashoffset="1000">
-      <animate attributeName="stroke-dashoffset" values="1000;0;0;1000" keyTimes="0;0.64;0.78;1" dur="4.5s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.08;0.76;1" dur="4.5s" repeatCount="indefinite"/>
-    </path>
+ <!-- ELECTRIC GLOW -->
+ <filter id="glow" x="-30%" y="-200%"
+         width="160%" height="500%">
+   <feGaussianBlur stdDeviation="3" result="b"/>
+   <feMerge>
+     <feMergeNode in="b"/>
+     <feMergeNode in="SourceGraphic"/>
+   </feMerge>
+ </filter>
 
-    <!-- Strong White Electric Glow -->
-    <path
-      d="M -15 65 L 35 57 L 58 65 L 82 47 L 105 64 L 130 54 L 155 68 L 181 43 L 204 61 L 228 53 L 253 68 L 278 45 L 300 63 L 324 50 L 348 68 L 373 42 L 397 61 L 421 51 L 446 68 L 470 43 L 494 62 L 518 49 L 542 68 L 566 42 L 590 62 L 615 51 L 640 68 L 664 43 L 689 62 L 713 50 L 743 65"
-      pathLength="1000"
-      stroke="#ffffff"
-      stroke-width="5"
-      opacity="0"
-      stroke-dasharray="1000"
-      stroke-dashoffset="1000"
-      filter="url(#electric)">
-      <animate attributeName="stroke-dashoffset" values="1000;0;0;1000" keyTimes="0;0.64;0.78;1" dur="4.5s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.08;0.76;1" dur="4.5s" repeatCount="indefinite"/>
-    </path>
+ <clipPath id="clip">
+   <rect width="728" height="132"/>
+ </clipPath>
 
-    <!-- Bright Electric Core -->
-    <path
-      d="M -15 65 L 35 57 L 58 65 L 82 47 L 105 64 L 130 54 L 155 68 L 181 43 L 204 61 L 228 53 L 253 68 L 278 45 L 300 63 L 324 50 L 348 68 L 373 42 L 397 61 L 421 51 L 446 68 L 470 43 L 494 62 L 518 49 L 542 68 L 566 42 L 590 62 L 615 51 L 640 68 L 664 43 L 689 62 L 713 50 L 743 65"
-      pathLength="1000"
-      stroke="#ffffff"
-      stroke-width="1.8"
-      opacity="0"
-      stroke-dasharray="1000"
-      stroke-dashoffset="1000">
-      <animate attributeName="stroke-dashoffset" values="1000;0;0;1000" keyTimes="0;0.64;0.78;1" dur="4.5s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.08;0.76;1" dur="4.5s" repeatCount="indefinite"/>
-    </path>
+</defs>
 
-    <!-- Lightning Branches -->
-    <g stroke="#ffffff" stroke-width="2" filter="url(#electric)" opacity="0">
-      <path d="M 82 47 L 74 27 L 90 16 M 155 68 L 144 87 L 157 103 M 278 45 L 269 24 L 286 13 M 373 42 L 359 20 L 377 8 M 470 43 L 483 23 L 474 12 M 566 42 L 555 21 L 570 10 M 664 43 L 677 23 L 668 12"/>
-      <animate attributeName="opacity" values="0;0.9;0.9;0" keyTimes="0;0.64;0.78;1" dur="4.5s" repeatCount="indefinite"/>
-    </g>
-  </g>
+<g clip-path="url(#clip)">
+
+ <!-- BACKGROUND -->
+ <rect width="728" height="132" fill="url(#bg)"/>
+
+ <!-- SUBTLE OBSIDIAN CRACKS -->
+ <g fill="none" stroke="#414951"
+    stroke-width=".7" opacity=".2">
+   <path d="M0 15L35 19 48 13 70 24 91 20
+            M650 9L668 17 683 12 706 26 728 21
+            M0 112L23 105 39 114 58 108
+            M660 116L679 107 696 113 728 102"/>
+ </g>
+
+ <!-- TEXT SHADOW -->
+ <g font-family="Segoe UI,Arial,sans-serif"
+    font-weight="900" filter="url(#glow)">
+
+   <text x="15" y="103" font-size="120"
+         fill="#000"
+         textLength="405"
+         lengthAdjust="spacingAndGlyphs">X-map-</text>
+
+   <text x="428" y="103" font-size="120"
+         fill="#000"
+         textLength="240"
+         lengthAdjust="spacingAndGlyphs">arch</text>
+
+ </g>
+
+ <!-- SILVER TEXT -->
+ <g font-family="Segoe UI,Arial,sans-serif"
+    font-weight="900">
+
+   <text x="12" y="101"
+         font-size="120"
+         fill="url(#silver)"
+         stroke="#dce2e9"
+         stroke-width=".45"
+         textLength="405"
+         lengthAdjust="spacingAndGlyphs">X-map-</text>
+
+   <!-- GOLD TEXT -->
+   <text x="425" y="101"
+         font-size="120"
+         fill="url(#gold)"
+         stroke="#d9ae3b"
+         stroke-width=".45"
+         textLength="240"
+         lengthAdjust="spacingAndGlyphs">arch</text>
+
+ </g>
+
+ <!-- LEFT TO RIGHT REALISTIC LIGHTNING -->
+ <g fill="none"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+    filter="url(#glow)">
+
+   <!-- OUTER ELECTRIC BLUE GLOW -->
+   <path id="bolt"
+     d="M-15 65 L35 57 58 65 82 47 105 64 130 54 155 68 181 43 204 61 228 53 253 68 278 45 300 63 324 50 348 68 373 42 397 61 421 51 446 68 470 43 494 62 518 49 542 68 566 42 590 62 615 51 640 68 664 43 689 62 713 50 743 65"
+     stroke="#58aaff"
+     stroke-width="10"
+     pathLength="1000"
+     stroke-dasharray="1000"
+     stroke-dashoffset="1000"
+     opacity="0">
+
+     <animate attributeName="stroke-dashoffset"
+       values="1000;0;0;1000"
+       keyTimes="0;.64;.78;1"
+       dur="4.5s"
+       repeatCount="indefinite"/>
+
+     <animate attributeName="opacity"
+       values="0;1;1;0"
+       keyTimes="0;.08;.78;1"
+       dur="4.5s"
+       repeatCount="indefinite"/>
+
+   </path>
+
+   <!-- BRIGHT WHITE LIGHTNING -->
+   <path
+     d="M-15 65 L35 57 58 65 82 47 105 64 130 54 155 68 181 43 204 61 228 53 253 68 278 45 300 63 324 50 348 68 373 42 397 61 421 51 446 68 470 43 494 62 518 49 542 68 566 42 590 62 615 51 640 68 664 43 689 62 713 50 743 65"
+     stroke="#fff"
+     stroke-width="3.5"
+     pathLength="1000"
+     stroke-dasharray="1000"
+     stroke-dashoffset="1000"
+     opacity="0">
+
+     <animate attributeName="stroke-dashoffset"
+       values="1000;0;0;1000"
+       keyTimes="0;.64;.78;1"
+       dur="4.5s"
+       repeatCount="indefinite"/>
+
+     <animate attributeName="opacity"
+       values="0;1;1;0"
+       keyTimes="0;.08;.78;1"
+       dur="4.5s"
+       repeatCount="indefinite"/>
+
+   </path>
+
+   <!-- LIGHTNING BRANCHES -->
+   <g stroke="#fff"
+      stroke-width="2"
+      opacity="0">
+
+     <path d="M82 47L74 27 90 16 M155 68L144 87 157 103 M278 45L269 24 286 13 M373 42L359 20 377 8 M470 43L483 23 474 12 M566 42L555 21 570 10 M664 43L677 23 668 12"/>
+
+     <animate attributeName="opacity"
+       values="0;0;1;1;0"
+       keyTimes="0;.08;.64;.78;1"
+       dur="4.5s"
+       repeatCount="indefinite"/>
+
+   </g>
+
+ </g>
+
+ <!-- ELECTRIC FLASH AT THE END -->
+ <rect width="728" height="132"
+       fill="#fff" opacity="0">
+
+   <animate attributeName="opacity"
+     values="0;0;0.12;0;0"
+     keyTimes="0;.64;.67;.71;1"
+     dur="4.5s"
+     repeatCount="indefinite"/>
+
+ </rect>
+
+</g>
 </svg>
