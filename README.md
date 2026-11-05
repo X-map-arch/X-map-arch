@@ -1,19 +1,13 @@
-<!-- Animated Premium Header Banner -->
+<!-- Premium Header Banner (Obscyra Style - Solid Dark) -->
 <div align="center">
-  <!-- Top Animated Banner with Glowing Text -->
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=0d1117,161b22&height=180&section=header&text=X-map-arch&fontSize=70&fontColor=ffffff&animation=twinkling&desc=Phantom%20in%20the%20System&descAlignY=75&descSize=20&descColor=FFD700" width="100%" />
-  
-  <!-- Typing Animation just below the banner -->
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=18&pause=1000&color=FFD700&center=true&vCenter=true&width=600&lines=Initializing+Secure+Connection...;Bypassing+Firewalls...;Securing+the+Wireless+Waves+⚡" alt="Typing SVG" />
-  </a>
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0d1117,161b22&height=180&section=header&text=X-map-arch&fontSize=70&fontColor=ffffff&animation=fadeIn&desc=Phantom%20in%20the%20System&descAlignY=75&descSize=20&descColor=FFD700" width="100%" />
 </div>
 
 <!-- Profile Info & Badges -->
 <div align="center">
   <br>
-  <!-- Animated Pulsing Logo -->
-  <img src="logo.png" alt="Logo" width="120" style="border-radius: 50%; box-shadow: 0px 0px 20px rgba(255, 215, 0, 0.5); animation: pulse 2s infinite;" />
+  <!-- Glowing Logo -->
+  <img src="logo.png" alt="Logo" width="130" style="border-radius: 50%; border: 2px solid #FFD700; box-shadow: 0px 0px 25px rgba(255, 215, 0, 0.4);" />
   <br><br>
   <p style="font-family: 'Segoe UI', sans-serif; font-size: 18px; color: #c9d1d9; letter-spacing: 1px;">
     <b>Cybersecurity</b> | <b>Penetration Testing</b> | <b>Systems</b>
@@ -27,7 +21,7 @@
 <br>
 <hr style="border: 1px solid #30363d;">
 
-<!-- About Section (Clean list style) -->
+<!-- About Section -->
 <h2 style="font-family: 'Segoe UI', sans-serif; font-weight: 600; color: #ffffff;">About</h2>
 <p style="font-family: 'Segoe UI', sans-serif; font-size: 15px; color: #c9d1d9; line-height: 1.6;">
   I build practical, robust security tools: automated wireless penetration frameworks and secure web applications. My focus is on clean interfaces and building open-source projects that people can use without friction.
@@ -41,15 +35,24 @@
 
 <hr style="border: 1px solid #30363d;">
 
-<!-- Technologies (Clean Icons) -->
-<h2 style="font-family: 'Segoe UI', sans-serif; font-weight: 600; color: #ffffff;">Technologies</h2>
+<!-- Technologies & Tools (Complete Cyber Security Stack) -->
+<h2 style="font-family: 'Segoe UI', sans-serif; font-weight: 600; color: #ffffff;">Technologies & Tools</h2>
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=linux,bash,python,php,html,c,vscode,git,github&theme=dark" alt="Tech Stack" style="margin-top: 10px;" />
+  <!-- Programming & OS -->
+  <img src="https://skillicons.dev/icons?i=linux,bash,python,php,html,c,vscode,git,github&theme=dark" alt="Tech Stack" style="margin-bottom: 15px;" />
+  <br>
+  <!-- Cyber Security Tools (Text Badges for Premium Look) -->
+  <img src="https://img.shields.io/badge/Wireshark-0d1117?style=for-the-badge&logo=wireshark&logoColor=FFD700&borderColor=30363d" alt="Wireshark">
+  <img src="https://img.shields.io/badge/Nmap-0d1117?style=for-the-badge&logo=nmap&logoColor=FFD700&borderColor=30363d" alt="Nmap">
+  <img src="https://img.shields.io/badge/Metasploit-0d1117?style=for-the-badge&logo=metasploit&logoColor=FFD700&borderColor=30363d" alt="Metasploit">
+  <img src="https://img.shields.io/badge/Burp_Suite-0d1117?style=for-the-badge&logo=burpsuite&logoColor=FFD700&borderColor=30363d" alt="Burp Suite">
+  <img src="https://img.shields.io/badge/Aircrack--ng-0d1117?style=for-the-badge&logo=wifi&logoColor=FFD700&borderColor=30363d" alt="Aircrack-ng">
+  <img src="https://img.shields.io/badge/Kali_Linux-0d1117?style=for-the-badge&logo=kali-linux&logoColor=FFD700&borderColor=30363d" alt="Kali">
 </div>
 
 <hr style="border: 1px solid #30363d;">
 
-<!-- Featured Projects (Clean Table) -->
+<!-- Featured Projects (All your projects added) -->
 <h2 style="font-family: 'Segoe UI', sans-serif; font-weight: 600; color: #ffffff;">Featured Projects</h2>
 <table style="width: 100%; border-collapse: collapse; font-family: 'Segoe UI', sans-serif; font-size: 14px; color: #c9d1d9;">
   <thead>
@@ -62,7 +65,7 @@
   <tbody>
     <tr style="border-bottom: 1px solid #21262d;">
       <td style="padding: 10px 5px;"><a href="https://github.com/X-map-arch/X-MAP-Auto-Phantom" style="color: #58a6ff; text-decoration: none;">X-MAP-Auto-Phantom</a></td>
-      <td style="padding: 10px 5px;">Automated Evil Twin attack framework with Captive Portal.</td>
+      <td style="padding: 10px 5px;">Automated Evil Twin attack framework for wireless pentesting.</td>
       <td style="padding: 10px 5px;"><span style="color: #FFD700;">Shell</span></td>
     </tr>
     <tr style="border-bottom: 1px solid #21262d;">
@@ -74,6 +77,21 @@
       <td style="padding: 10px 5px;"><a href="https://github.com/X-map-arch/PORTFOLIO" style="color: #58a6ff; text-decoration: none;">PORTFOLIO</a></td>
       <td style="padding: 10px 5px;">Personal aesthetic portfolio showcasing technical skills.</td>
       <td style="padding: 10px 5px;"><span style="color: #FFD700;">HTML</span></td>
+    </tr>
+    <tr style="border-bottom: 1px solid #21262d;">
+      <td style="padding: 10px 5px;"><a href="https://github.com/X-map-arch/SFRA_01" style="color: #58a6ff; text-decoration: none;">SFRA_01</a></td>
+      <td style="padding: 10px 5px;">Python-based security tool/script for network analysis.</td>
+      <td style="padding: 10px 5px;"><span style="color: #FFD700;">Python</span></td>
+    </tr>
+    <tr style="border-bottom: 1px solid #21262d;">
+      <td style="padding: 10px 5px;"><a href="https://github.com/X-map-arch/my-portfolio" style="color: #58a6ff; text-decoration: none;">my-portfolio</a></td>
+      <td style="padding: 10px 5px;">A web-based personal portfolio project.</td>
+      <td style="padding: 10px 5px;"><span style="color: #FFD700;">HTML</span></td>
+    </tr>
+    <tr style="border-bottom: 1px solid #21262d;">
+      <td style="padding: 10px 5px;"><a href="https://github.com/X-map-arch/mahi-project-" style="color: #58a6ff; text-decoration: none;">mahi-project-</a></td>
+      <td style="padding: 10px 5px;">Web development project built with PHP backend.</td>
+      <td style="padding: 10px 5px;"><span style="color: #FFD700;">PHP</span></td>
     </tr>
   </tbody>
 </table>
@@ -89,10 +107,9 @@
 
 <hr style="border: 1px solid #30363d;">
 
-<!-- Animated Footer -->
+<!-- Footer -->
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0d1117&height=80&section=footer" width="100%" />
-  <p style="font-family: 'Segoe UI', sans-serif; font-size: 13px; color: #8b949e; margin-top: -10px;">
-    <i>"Phantom in the System. Securing the Wireless Waves."</i>
+  <p style="font-family: 'Segoe UI', sans-serif; font-size: 13px; color: #8b949e; font-style: italic;">
+    "Phantom in the System. Securing the Wireless Waves."
   </p>
 </div>
