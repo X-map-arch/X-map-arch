@@ -1,18 +1,10 @@
-<!-- Custom Premium Animated Banner -->
+<!-- Custom Premium 3D Banner -->
 <div align="center">
-  <img src="banner.svg" alt="X-map-arch Banner" width="100%" style="border-radius: 8px; border: 1px solid #30363d; margin-bottom: 10px;" />
-</div>
-
-<!-- Animated Typing Subtitle (Extra Animated Part) -->
-<div align="center">
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=20&pause=1000&color=FFD700&center=true&vCenter=true&width=600&lines=Phantom+in+the+System+⚡;Securing+the+Wireless+Waves;Cybersecurity+%7C+Penetration+Tester" alt="Typing SVG" />
-  </a>
+  <img src="banner.svg" alt="X-map-arch Banner" width="100%" style="margin-bottom: 20px;" />
 </div>
 
 <!-- Profile Info & Badges -->
 <div align="center">
-  <br>
   <p style="font-family: 'Segoe UI', sans-serif; font-size: 16px; color: #c9d1d9; letter-spacing: 1px;">
     <b>Cybersecurity</b> | <b>Penetration Testing</b> | <b>Systems</b>
   </p>
