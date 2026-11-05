@@ -1,17 +1,19 @@
-<!-- Animated Premium Banner from GitHub Action -->
+<!-- Premium Header Banner -->
 <div align="center">
-  <img src="https://raw.githubusercontent.com/X-map-arch/X-map-arch/main/banner.svg" alt="X-map-arch Animated Banner" width="100%" />
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0d1117,161b22&height=180&section=header&text=X-map-arch&fontSize=70&fontColor=ffffff&animation=fadeIn&desc=Phantom%20in%20the%20System&descAlignY=75&descSize=20&descColor=FFD700" width="100%" />
 </div>
 
 <!-- Profile Info & Badges -->
 <div align="center">
   <br>
-  <img src="logo.png" alt="Logo" width="130" style="border-radius: 50%; border: 2px solid #FFD700; box-shadow: 0px 0px 20px rgba(255, 215, 0, 0.3);" />
+  <!-- Glowing Logo (Fixed Size) -->
+  <img src="logo.png" alt="Logo" width="110" style="border-radius: 50%; border: 2px solid #FFD700; box-shadow: 0px 0px 20px rgba(255, 215, 0, 0.4);" />
   <br><br>
-  <p style="font-family: 'Segoe UI', sans-serif; font-size: 18px; color: #c9d1d9; letter-spacing: 1px;">
+  <p style="font-family: 'Segoe UI', sans-serif; font-size: 16px; color: #c9d1d9; letter-spacing: 1px;">
     <b>Cybersecurity</b> | <b>Penetration Testing</b> | <b>Systems</b>
   </p>
   
+  <!-- Real-time Views & Followers -->
   <img src="https://komarev.com/ghpvc/?username=X-map-arch&color=FFD700&style=for-the-badge&label=PROFILE+VIEWS" alt="Profile Views">
   &nbsp;
   <img src="https://img.shields.io/badge/FOLLOWERS-2-FFD700?style=for-the-badge&labelColor=161b22" alt="Followers">
