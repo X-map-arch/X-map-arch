@@ -1,19 +1,42 @@
-<!-- Premium Text Header (No broken images, pure HTML) -->
+<!-- Custom Split Animated Banner (Black/Yellow & White with Lightning) -->
 <div align="center">
-  <h1 style="font-family: 'Fira Code', monospace; font-size: 50px; font-weight: bold; margin-bottom: 0px;">
-    <span style="color: #ffffff;">X-map-</span><span style="color: #FFD700;">arch</span>
-  </h1>
-  <p style="font-family: 'Segoe UI', sans-serif; font-size: 16px; color: #8b949e; letter-spacing: 2px; margin-top: 5px;">
-    Phantom in the System
-  </p>
+  <svg width="100%" height="200" viewBox="0 0 800 200" xmlns="http://www.w3.org/2000/svg" style="border-radius: 8px; border: 1px solid #30363d; margin-bottom: 20px;">
+    
+    <!-- Background Split: Left Black, Right White -->
+    <rect x="0" y="0" width="400" height="200" fill="#0d1117" />
+    <rect x="400" y="0" width="400" height="200" fill="#ffffff" />
+    
+    <!-- Yellow Diagonal Slash (Split effect) -->
+    <polygon points="380,0 400,0 420,200 400,200" fill="#FFD700" />
+    
+    <!-- Text: Left Side (Yellow text on Black) -->
+    <text x="380" y="115" font-family="'Fira Code', monospace" font-size="50" font-weight="bold" fill="#FFD700" text-anchor="end" letter-spacing="2">X-map-</text>
+    
+    <!-- Text: Right Side (Black text on White) -->
+    <text x="430" y="115" font-family="'Fira Code', monospace" font-size="50" font-weight="bold" fill="#000000" text-anchor="start" letter-spacing="2">arch</text>
+
+    <!-- Subtitle -->
+    <text x="400" y="150" font-family="'Segoe UI', sans-serif" font-size="16" fill="#8b949e" text-anchor="middle" letter-spacing="3">PHANTOM IN THE SYSTEM</text>
+
+    <!-- Animated Lightning Strike (Passing through text) -->
+    <g>
+      <!-- The Lightning Bolt Shape -->
+      <polygon points="400,0 370,70 420,80 350,200" fill="#FFD700" opacity="0">
+        <!-- Animation: Waits, then flashes and moves across -->
+        <animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;0.7;0.75;0.8;1" dur="4s" repeatCount="indefinite" />
+        <animateTransform attributeName="transform" type="translate" values="-400,0; 400,0" dur="4s" repeatCount="indefinite" />
+      </polygon>
+      
+      <!-- Flash Effect (Makes the whole banner glow briefly) -->
+      <rect x="0" y="0" width="800" height="200" fill="#FFD700" opacity="0" style="mix-blend-mode: overlay;">
+        <animate attributeName="opacity" values="0;0;0.4;0;0" keyTimes="0;0.7;0.75;0.8;1" dur="4s" repeatCount="indefinite" />
+      </rect>
+    </g>
+  </svg>
 </div>
 
-<!-- Profile Info & Badges -->
+<!-- Profile Info & Badges (No Logo) -->
 <div align="center">
-  <br>
-  <!-- Glowing Logo -->
-  <img src="logo.png" alt="Logo" width="110" style="border-radius: 50%; border: 2px solid #FFD700; box-shadow: 0px 0px 20px rgba(255, 215, 0, 0.4);" />
-  <br><br>
   <p style="font-family: 'Segoe UI', sans-serif; font-size: 16px; color: #c9d1d9; letter-spacing: 1px;">
     <b>Cybersecurity</b> | <b>Penetration Testing</b> | <b>Systems</b>
   </p>
