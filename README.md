@@ -1,6 +1,6 @@
 <!-- Custom Premium Obsidian Banner -->
 <div align="center">
-  <img src="banner.svg" alt="X-map-arch Banner" width="100%" style="border-radius: 8px; margin-bottom: 20px;" />
+  <img src="banner.svg" alt="X-map-arch Banner" width="100%" style="margin-bottom: 15px;" />
 </div>
 
 <!-- Profile Info & Badges -->
