@@ -60,42 +60,41 @@
     <tr style="border-bottom: 1px solid #21262d;">
       <td style="padding: 10px 5px;"><a href="https://github.com/X-map-arch/X-MAP-Auto-Phantom" style="color: #58a6ff; text-decoration: none;">X-MAP-Auto-Phantom</a></td>
       <td style="padding: 10px 5px;">Automated Evil Twin attack framework for wireless pentesting.</td>
-      <td style="padding: 10px 5px;"><span style="color: #FFD700;">Shell</span></td>
+      <td style="padding: 10px 5px;"><img src="https://img.shields.io/badge/-Shell-0d1117?style=flat-square&logo=gnu-bash&logoColor=FFD700" alt="Shell"></td>
     </tr>
     <tr style="border-bottom: 1px solid #21262d;">
       <td style="padding: 10px 5px;"><a href="https://github.com/X-map-arch/MEDILINK" style="color: #58a6ff; text-decoration: none;">MEDILINK</a></td>
       <td style="padding: 10px 5px;">Secure platform connecting patients and medical services.</td>
-      <td style="padding: 10px 5px;"><span style="color: #FFD700;">PHP</span></td>
+      <td style="padding: 10px 5px;"><img src="https://img.shields.io/badge/-PHP-0d1117?style=flat-square&logo=php&logoColor=FFD700" alt="PHP"></td>
     </tr>
     <tr style="border-bottom: 1px solid #21262d;">
       <td style="padding: 10px 5px;"><a href="https://github.com/X-map-arch/PORTFOLIO" style="color: #58a6ff; text-decoration: none;">PORTFOLIO</a></td>
       <td style="padding: 10px 5px;">Personal aesthetic portfolio showcasing technical skills.</td>
-      <td style="padding: 10px 5px;"><span style="color: #FFD700;">HTML</span></td>
+      <td style="padding: 10px 5px;"><img src="https://img.shields.io/badge/-HTML-0d1117?style=flat-square&logo=html5&logoColor=FFD700" alt="HTML"></td>
     </tr>
     <tr style="border-bottom: 1px solid #21262d;">
       <td style="padding: 10px 5px;"><a href="https://github.com/X-map-arch/SFRA_01" style="color: #58a6ff; text-decoration: none;">SFRA_01</a></td>
       <td style="padding: 10px 5px;">Python-based security tool/script for network analysis.</td>
-      <td style="padding: 10px 5px;"><span style="color: #FFD700;">Python</span></td>
+      <td style="padding: 10px 5px;"><img src="https://img.shields.io/badge/-Python-0d1117?style=flat-square&logo=python&logoColor=FFD700" alt="Python"></td>
     </tr>
     <tr style="border-bottom: 1px solid #21262d;">
       <td style="padding: 10px 5px;"><a href="https://github.com/X-map-arch/my-portfolio" style="color: #58a6ff; text-decoration: none;">my-portfolio</a></td>
       <td style="padding: 10px 5px;">A web-based personal portfolio project.</td>
-      <td style="padding: 10px 5px;"><span style="color: #FFD700;">HTML</span></td>
+      <td style="padding: 10px 5px;"><img src="https://img.shields.io/badge/-HTML-0d1117?style=flat-square&logo=html5&logoColor=FFD700" alt="HTML"></td>
     </tr>
     <tr style="border-bottom: 1px solid #21262d;">
       <td style="padding: 10px 5px;"><a href="https://github.com/X-map-arch/mahi-project-" style="color: #58a6ff; text-decoration: none;">mahi-project-</a></td>
       <td style="padding: 10px 5px;">Web development project built with PHP backend.</td>
-      <td style="padding: 10px 5px;"><span style="color: #FFD700;">PHP</span></td>
+      <td style="padding: 10px 5px;"><img src="https://img.shields.io/badge/-PHP-0d1117?style=flat-square&logo=php&logoColor=FFD700" alt="PHP"></td>
     </tr>
   </tbody>
 </table>
 
 <hr style="border: 1px solid #30363d;">
 
-<!-- GitHub Activity (Fixed Broken Image) -->
+<!-- GitHub Activity -->
 <h2 style="font-family: 'Segoe UI', sans-serif; font-weight: 600; color: #ffffff;">GitHub Activity</h2>
 <div align="center" style="margin-top: 15px;">
-  <!-- Only showing the working streak card to prevent broken images -->
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=X-map-arch&theme=dark&background=0D1117&ring=FFD700&fire=FFD700&currStreakNum=FFFFFF&sideNums=c9d1d9&currStreakLabel=FFD700&sideLabels=8b949e&dates=8b949e&border=30363d&border_radius=8" alt="GitHub Streak" width="70%" />
 </div>
 
