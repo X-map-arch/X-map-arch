@@ -1,31 +1,26 @@
-<!-- Animated Premium Header -->
+<!-- Premium Header Banner (Obscyra Style) -->
 <div align="center">
-  <!-- Glowing Logo -->
-  <img src="logo.png" alt="Logo" width="130" style="border-radius: 50%; box-shadow: 0px 0px 30px rgba(255, 215, 0, 0.5); animation: pulse 2s infinite;" />
-  
-  <!-- Typing Animation for Name -->
-  <h1 style="font-family: 'Fira Code', monospace; color: #FFD700; font-size: 40px; margin-top: 15px; margin-bottom: 5px; letter-spacing: 2px;">
-    X-map-arch
-  </h1>
-  
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=22&pause=1000&color=FFFFFF&center=true&vCenter=true&width=600&lines=Cybersecurity+Architect;Phantom+in+the+System;Securing+the+Wireless+Waves+⚡" alt="Typing SVG" />
-  </a>
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0d1117,161b22&height=180&section=header&text=X-map-arch&fontSize=70&fontColor=ffffff&animation=fadeIn&desc=Phantom%20in%20the%20System&descAlignY=75&descSize=20&descColor=FFD700" width="100%" />
 </div>
 
-<br>
-
-<!-- Animated Marquee (Scrolling Text) -->
+<!-- Profile Info & Badges -->
 <div align="center">
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Segoe+UI&weight=500&size=16&pause=500&color=8B949E&center=true&vCenter=true&width=800&lines=Penetration+Testing+%7C+Wireless+Security+%7C+X-MAP-Auto-Phantom+%7C+Open+Source+Enthusiast" alt="Scrolling Text" />
-  </a>
+  <br>
+  <img src="logo.png" alt="Logo" width="120" style="border-radius: 50%; box-shadow: 0px 0px 20px rgba(255, 215, 0, 0.3);" />
+  <br><br>
+  <p style="font-family: 'Segoe UI', sans-serif; font-size: 18px; color: #c9d1d9; letter-spacing: 1px;">
+    <b>Cybersecurity</b> | <b>Penetration Testing</b> | <b>Systems</b>
+  </p>
+  
+  <img src="https://img.shields.io/badge/PROFILE_VIEWS-50-FFD700?style=for-the-badge&labelColor=161b22" alt="Views">
+  &nbsp;
+  <img src="https://img.shields.io/badge/FOLLOWERS-13-FFD700?style=for-the-badge&labelColor=161b22" alt="Followers">
 </div>
 
 <br>
 <hr style="border: 1px solid #30363d;">
 
-<!-- Clean About Section -->
+<!-- About Section (Clean list style) -->
 <h2 style="font-family: 'Segoe UI', sans-serif; font-weight: 600; color: #ffffff;">About</h2>
 <p style="font-family: 'Segoe UI', sans-serif; font-size: 15px; color: #c9d1d9; line-height: 1.6;">
   I build practical, robust security tools: automated wireless penetration frameworks and secure web applications. My focus is on clean interfaces and building open-source projects that people can use without friction.
@@ -39,16 +34,15 @@
 
 <hr style="border: 1px solid #30363d;">
 
-<!-- Animated Technologies -->
+<!-- Technologies (Clean Icons) -->
 <h2 style="font-family: 'Segoe UI', sans-serif; font-weight: 600; color: #ffffff;">Technologies</h2>
 <div align="center">
-  <!-- Using a different animated tech stack -->
-  <img src="https://skillicons.dev/icons?i=linux,bash,python,php,html,c,vscode,git,github&theme=dark" alt="Tech Stack" style="margin-top: 10px; transition: transform 0.3s;" />
+  <img src="https://skillicons.dev/icons?i=linux,bash,python,php,html,c,vscode,git,github&theme=dark" alt="Tech Stack" style="margin-top: 10px;" />
 </div>
 
 <hr style="border: 1px solid #30363d;">
 
-<!-- Featured Projects -->
+<!-- Featured Projects (Clean Table) -->
 <h2 style="font-family: 'Segoe UI', sans-serif; font-weight: 600; color: #ffffff;">Featured Projects</h2>
 <table style="width: 100%; border-collapse: collapse; font-family: 'Segoe UI', sans-serif; font-size: 14px; color: #c9d1d9;">
   <thead>
@@ -88,7 +82,9 @@
 
 <hr style="border: 1px solid #30363d;">
 
-<!-- Animated Footer (Waving effect) -->
+<!-- Footer -->
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0d1117&height=100&section=footer&text=Securing%20the%20Wireless%20Waves&fontSize=16&fontColor=FFD700&animation=fadeIn" width="100%" />
+  <p style="font-family: 'Segoe UI', sans-serif; font-size: 13px; color: #8b949e;">
+    <i>"Phantom in the System. Securing the Wireless Waves."</i>
+  </p>
 </div>
