@@ -92,11 +92,11 @@
 
 <hr style="border: 1px solid #30363d;">
 
-<!-- GitHub Stats -->
+<!-- GitHub Activity (Fixed Broken Image) -->
 <h2 style="font-family: 'Segoe UI', sans-serif; font-weight: 600; color: #ffffff;">GitHub Activity</h2>
 <div align="center" style="margin-top: 15px;">
-  <img src="https://github-readme-stats.vercel.app/api?username=X-map-arch&show_icons=true&theme=dark&bg_color=0D1117&title_color=FFD700&text_color=8b949e&icon_color=FFD700&border_color=30363d&hide_border=false&border_radius=8" alt="GitHub Stats" width="48%" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=X-map-arch&theme=dark&background=0D1117&ring=FFD700&fire=FFD700&currStreakNum=FFFFFF&sideNums=c9d1d9&currStreakLabel=FFD700&sideLabels=8b949e&dates=8b949e&border=30363d&border_radius=8" alt="GitHub Streak" width="48%" />
+  <!-- Only showing the working streak card to prevent broken images -->
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=X-map-arch&theme=dark&background=0D1117&ring=FFD700&fire=FFD700&currStreakNum=FFFFFF&sideNums=c9d1d9&currStreakLabel=FFD700&sideLabels=8b949e&dates=8b949e&border=30363d&border_radius=8" alt="GitHub Streak" width="70%" />
 </div>
 
 <hr style="border: 1px solid #30363d;">
