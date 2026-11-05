@@ -1,72 +1,96 @@
-<!-- Premium Header with Glowing Effect -->
+<!-- Header Section with Minimalist Gradient -->
 <div align="center">
-  <img src="logo.png" alt="X-map-arch Logo" width="150" style="border-radius: 50%; border: 2px solid #FFD700; box-shadow: 0px 0px 30px rgba(255, 215, 0, 0.4);" />
-  
-  <h1 style="font-family: 'Fira Code', monospace; color: #FFD700; font-size: 32px; margin-top: 15px; margin-bottom: 5px; letter-spacing: 2px;">
-    X-MAP-ARCH
-  </h1>
-  
-  <p style="color: #8b949e; font-family: 'Segoe UI', sans-serif; font-size: 14px; letter-spacing: 1px; text-transform: uppercase;">
-    Cybersecurity Architect & Developer
-  </p>
+  <img src="logo.png" alt="X-map-arch" width="120" style="border-radius: 50%; margin-bottom: 10px;" />
+  <br>
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=30&pause=1000&color=FFD700&center=true&vCenter=true&width=600&lines=Securing+the+Wireless+Waves;Architecting+Cyber+Defenses;Phantom+in+the+System" alt="Typing SVG" />
+</div>
 
-  <!-- Typing Animation -->
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=18&pause=1000&color=FFD700&center=true&vCenter=true&width=435&lines=Securing+the+Wireless+Waves+⚡;Penetration+Tester+%7C+Developer;Architecting+Cyber+Defenses+🛡️" alt="Typing SVG" />
+<br>
+
+<!-- About Section (Styled like a clean card) -->
+<h2 style="font-family: 'Segoe UI', sans-serif; font-weight: 600; border-bottom: 1px solid #30363d; padding-bottom: 5px;">About</h2>
+<p style="font-family: 'Segoe UI', sans-serif; font-size: 15px; color: #c9d1d9; line-height: 1.6;">
+  I build practical, robust security tools: automated wireless penetration frameworks and secure web applications. My focus is on clean interfaces and building open-source projects that people can use without friction. 
+</p>
+<ul style="font-family: 'Segoe UI', sans-serif; font-size: 15px; color: #c9d1d9; line-height: 1.6;">
+  <li>⚡ Developing <b>X-MAP-Auto-Phantom</b> for wireless security testing (2.4GHz & 5GHz)</li>
+  <li>🛡️ Working across Python, Shell Scripting, PHP, and C</li>
+  <li>💻 Exploring Linux internals and low-level system security</li>
+</ul>
+
+<br>
+
+<!-- Technologies (Clean Icons) -->
+<h2 style="font-family: 'Segoe UI', sans-serif; font-weight: 600; border-bottom: 1px solid #30363d; padding-bottom: 5px;">Technologies</h2>
+<p align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=linux,bash,python,php,html,c,vscode,git,github&theme=dark" alt="Tech Stack" />
   </a>
-</div>
-
-<br/>
-
-<!-- Premium About Me (Using HTML Divs instead of Tables for better GitHub rendering) -->
-<div style="background: linear-gradient(135deg, #161b22 0%, #0d1117 100%); border: 1px solid #30363d; border-radius: 10px; padding: 20px; margin-bottom: 20px;">
-  <h3 style="color: #FFD700; margin-top: 0; font-family: 'Segoe UI', sans-serif;">⚡ The Architect Behind the Code</h3>
-  <p style="color: #c9d1d9; font-size: 14px; line-height: 1.6; font-family: 'Segoe UI', sans-serif;">
-    I am a passionate <b>Cybersecurity Researcher</b> and <b>Developer</b> dedicated to exploring the depths of network security. My focus lies in building automated frameworks for wireless penetration testing and crafting secure, robust web applications.
-  </p>
-  <p style="color: #c9d1d9; font-size: 14px; line-height: 1.6; font-family: 'Segoe UI', sans-serif; margin-bottom: 0;">
-    Currently, I am engineering advanced security tools like the <b>X-MAP-Auto-Phantom</b>, designed to simulate complex attack vectors and fortify cyber defenses.
-  </p>
-</div>
-
-<br/>
-
-<!-- Tech Stack (Minimalist Dark Theme) -->
-<h3 style="color: #ffffff; font-family: 'Segoe UI', sans-serif; border-bottom: 2px solid #FFD700; display: inline-block; padding-bottom: 5px;">⚡ Arsenal</h3>
-<p align="left">
-  <img src="https://img.shields.io/badge/Shell-0d1117?style=for-the-badge&logo=gnu-bash&logoColor=FFD700&borderColor=FFD700" alt="Shell" />
-  <img src="https://img.shields.io/badge/Python-0d1117?style=for-the-badge&logo=python&logoColor=FFD700&borderColor=FFD700" alt="Python" />
-  <img src="https://img.shields.io/badge/PHP-0d1117?style=for-the-badge&logo=php&logoColor=FFFFFF&borderColor=FFD700" alt="PHP" />
-  <img src="https://img.shields.io/badge/Linux-0d1117?style=for-the-badge&logo=linux&logoColor=FFD700&borderColor=FFD700" alt="Linux" />
-  <img src="https://img.shields.io/badge/Wireshark-0d1117?style=for-the-badge&logo=wireshark&logoColor=FFFFFF&borderColor=FFD700" alt="Wireshark" />
 </p>
 
-<br/>
+<br>
 
-<!-- GitHub Stats (Ultra Clean & Aesthetic) -->
-<h3 style="color: #ffffff; font-family: 'Segoe UI', sans-serif; border-bottom: 2px solid #FFD700; display: inline-block; padding-bottom: 5px;">📊 Analytics</h3>
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=X-map-arch&show_icons=true&theme=radical&bg_color=0D1117&title_color=FFD700&text_color=FFFFFF&icon_color=FFD700&border_color=30363d&hide_border=false&border_radius=10" alt="GitHub Stats" width="48%" />
-  
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=X-map-arch&theme=radical&background=0D1117&ring=FFD700&fire=FFD700&currStreakNum=FFFFFF&sideNums=FFFFFF&currStreakLabel=FFD700&sideLabels=FFFFFF&dates=FFFFFF&border=30363d&border_radius=10" alt="GitHub Streak" width="48%" />
+<!-- Featured Projects (Aesthetic Table matching your theme) -->
+<h2 style="font-family: 'Segoe UI', sans-serif; font-weight: 600; border-bottom: 1px solid #30363d; padding-bottom: 5px;">Featured Projects</h2>
+
+<table style="width: 100%; border-collapse: collapse; font-family: 'Segoe UI', sans-serif; font-size: 14px; color: #c9d1d9;">
+  <thead>
+    <tr style="border-bottom: 2px solid #30363d; text-align: left;">
+      <th style="padding: 10px 5px; color: #FFD700;">Project</th>
+      <th style="padding: 10px 5px; color: #FFD700;">Description</th>
+      <th style="padding: 10px 5px; color: #FFD700;">Stack</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style="border-bottom: 1px solid #21262d;">
+      <td style="padding: 10px 5px;"><a href="https://github.com/X-map-arch/X-MAP-Auto-Phantom" style="color: #58a6ff; text-decoration: none; font-weight: bold;">X-MAP-Auto-Phantom</a></td>
+      <td style="padding: 10px 5px;">An automated, cinematic Evil Twin attack framework for wireless penetration testing with Captive Portal.</td>
+      <td style="padding: 10px 5px;"><img src="https://img.shields.io/badge/Shell-000000?style=flat-square&logo=gnu-bash&logoColor=FFD700" alt="Shell"></td>
+    </tr>
+    <tr style="border-bottom: 1px solid #21262d;">
+      <td style="padding: 10px 5px;"><a href="https://github.com/X-map-arch/PORTFOLIO" style="color: #58a6ff; text-decoration: none; font-weight: bold;">PORTFOLIO</a></td>
+      <td style="padding: 10px 5px;">Personal aesthetic portfolio website showcasing projects and skills.</td>
+      <td style="padding: 10px 5px;"><img src="https://img.shields.io/badge/HTML5-000000?style=flat-square&logo=html5&logoColor=FFFFFF" alt="HTML"></td>
+    </tr>
+    <tr style="border-bottom: 1px solid #21262d;">
+      <td style="padding: 10px 5px;"><a href="https://github.com/X-map-arch/MEDILINK" style="color: #58a6ff; text-decoration: none; font-weight: bold;">MEDILINK</a></td>
+      <td style="padding: 10px 5px;">A secure web-based platform connecting patients and medical services.</td>
+      <td style="padding: 10px 5px;"><img src="https://img.shields.io/badge/PHP-000000?style=flat-square&logo=php&logoColor=FFD700" alt="PHP"></td>
+    </tr>
+  </tbody>
+</table>
+
+<br>
+
+<!-- GitHub Activity (Matching the screenshot style) -->
+<h2 style="font-family: 'Segoe UI', sans-serif; font-weight: 600; border-bottom: 1px solid #30363d; padding-bottom: 5px;">GitHub Activity</h2>
+<div align="center" style="font-family: 'Segoe UI', sans-serif; font-size: 14px;">
+  <img src="https://img.shields.io/badge/Followers-13-FFD700?style=for-the-badge&labelColor=0D1117" alt="Followers">
+  &nbsp;
+  <img src="https://img.shields.io/badge/Repositories-10-FFD700?style=for-the-badge&labelColor=0D1117" alt="Repos">
+  &nbsp;
+  <img src="https://img.shields.io/badge/Focus-Cybersecurity-FFD700?style=for-the-badge&labelColor=0D1117" alt="Focus">
 </div>
 
-<br/><br/>
+<br>
 
 <!-- Connect Section -->
+<h2 style="font-family: 'Segoe UI', sans-serif; font-weight: 600; border-bottom: 1px solid #30363d; padding-bottom: 5px;">Connect</h2>
 <div align="center">
-  <a href="mailto:hossain242-35-397@diu.edu.bd" style="text-decoration: none;">
-    <img src="https://img.shields.io/badge/Email-0d1117?style=for-the-badge&logo=gmail&logoColor=FFD700" alt="Email" />
+  <a href="mailto:hossain242-35-397@diu.edu.bd" style="text-decoration: none; margin: 0 10px;">
+    <img src="https://img.shields.io/badge/Email-0D1117?style=for-the-badge&logo=gmail&logoColor=FFD700" alt="Email" />
   </a>
-  &nbsp;
-  <a href="https://github.com/X-map-arch" style="text-decoration: none;">
-    <img src="https://img.shields.io/badge/GitHub-0d1117?style=for-the-badge&logo=github&logoColor=FFFFFF" alt="GitHub" />
+  <a href="https://github.com/X-map-arch" style="text-decoration: none; margin: 0 10px;">
+    <img src="https://img.shields.io/badge/GitHub-0D1117?style=for-the-badge&logo=github&logoColor=FFFFFF" alt="GitHub" />
   </a>
 </div>
 
-<br/>
+<br>
 
-<!-- Premium Footer -->
+<!-- Footer Gradient -->
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0D1117&height=120&section=footer&text=Securing%20the%20Wireless%20Waves&fontSize=20&fontColor=FFD700&animation=twinkling" width="100%" />
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0D1117&height=2&section=header" width="100%" />
+  <p style="font-family: 'Fira Code', monospace; font-size: 12px; color: #8b949e; margin-top: 15px;">
+    <i>"Securing the wireless waves, one packet at a time."</i>
+  </p>
 </div>
