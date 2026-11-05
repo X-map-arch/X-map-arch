@@ -1,12 +1,19 @@
-<!-- Premium Header Banner (Obscyra Style) -->
+<!-- Animated Premium Header Banner -->
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=0d1117,161b22&height=180&section=header&text=X-map-arch&fontSize=70&fontColor=ffffff&animation=fadeIn&desc=Phantom%20in%20the%20System&descAlignY=75&descSize=20&descColor=FFD700" width="100%" />
+  <!-- Top Animated Banner with Glowing Text -->
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0d1117,161b22&height=180&section=header&text=X-map-arch&fontSize=70&fontColor=ffffff&animation=twinkling&desc=Phantom%20in%20the%20System&descAlignY=75&descSize=20&descColor=FFD700" width="100%" />
+  
+  <!-- Typing Animation just below the banner -->
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=18&pause=1000&color=FFD700&center=true&vCenter=true&width=600&lines=Initializing+Secure+Connection...;Bypassing+Firewalls...;Securing+the+Wireless+Waves+⚡" alt="Typing SVG" />
+  </a>
 </div>
 
 <!-- Profile Info & Badges -->
 <div align="center">
   <br>
-  <img src="logo.png" alt="Logo" width="120" style="border-radius: 50%; box-shadow: 0px 0px 20px rgba(255, 215, 0, 0.3);" />
+  <!-- Animated Pulsing Logo -->
+  <img src="logo.png" alt="Logo" width="120" style="border-radius: 50%; box-shadow: 0px 0px 20px rgba(255, 215, 0, 0.5); animation: pulse 2s infinite;" />
   <br><br>
   <p style="font-family: 'Segoe UI', sans-serif; font-size: 18px; color: #c9d1d9; letter-spacing: 1px;">
     <b>Cybersecurity</b> | <b>Penetration Testing</b> | <b>Systems</b>
@@ -82,9 +89,10 @@
 
 <hr style="border: 1px solid #30363d;">
 
-<!-- Footer -->
+<!-- Animated Footer -->
 <div align="center">
-  <p style="font-family: 'Segoe UI', sans-serif; font-size: 13px; color: #8b949e;">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0d1117&height=80&section=footer" width="100%" />
+  <p style="font-family: 'Segoe UI', sans-serif; font-size: 13px; color: #8b949e; margin-top: -10px;">
     <i>"Phantom in the System. Securing the Wireless Waves."</i>
   </p>
 </div>
