@@ -1,13 +1,41 @@
-<!-- Premium Header Banner (Obscyra Style - Solid Dark) -->
+<!-- Custom Animated Split Banner (Matching Logo Theme) -->
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=0d1117,161b22&height=180&section=header&text=X-map-arch&fontSize=70&fontColor=ffffff&animation=fadeIn&desc=Phantom%20in%20the%20System&descAlignY=75&descSize=20&descColor=FFD700" width="100%" />
+  <svg width="100%" height="180" viewBox="0 0 800 180" xmlns="http://www.w3.org/2000/svg" style="border-radius: 8px; border: 1px solid #30363d;">
+    <!-- Background Split -->
+    <rect width="50%" height="100%" fill="#ffffff" />
+    <rect x="50%" width="50%" height="100%" fill="#000000" />
+    
+    <!-- Cracked Line in the middle -->
+    <path d="M400,0 L380,50 L410,90 L390,140 L400,180" stroke="#000000" stroke-width="2" fill="none" opacity="0.5"/>
+    <path d="M400,0 L420,50 L390,90 L410,140 L400,180" stroke="#FFD700" stroke-width="1" fill="none" opacity="0.8"/>
+
+    <!-- Text: Left Side (Black Text) -->
+    <text x="350" y="100" font-family="'Segoe UI', sans-serif" font-size="55" font-weight="bold" fill="#000000" text-anchor="end">X-map-</text>
+    
+    <!-- Text: Right Side (White Text) -->
+    <text x="450" y="100" font-family="'Segoe UI', sans-serif" font-size="55" font-weight="bold" fill="#ffffff" text-anchor="start">arch</text>
+
+    <!-- Subtitle Text -->
+    <text x="400" y="140" font-family="'Fira Code', monospace" font-size="16" fill="#FFD700" text-anchor="middle" letter-spacing="2">Phantom in the System</text>
+
+    <!-- Animated Lightning Strike -->
+    <g>
+      <polygon points="400,0 380,40 410,50 370,110 430,80 400,180" fill="#FFD700" opacity="0">
+        <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.8;0.85;0.9;0.95;1" dur="3s" repeatCount="indefinite" />
+      </polygon>
+      <!-- Flash Effect on Text -->
+      <rect width="100%" height="100%" fill="#FFD700" opacity="0" style="mix-blend-mode: overlay;">
+        <animate attributeName="opacity" values="0;0;0.3;0;0" keyTimes="0;0.8;0.85;0.9;1" dur="3s" repeatCount="indefinite" />
+      </rect>
+    </g>
+  </svg>
 </div>
 
 <!-- Profile Info & Badges -->
 <div align="center">
   <br>
-  <!-- Glowing Logo -->
-  <img src="logo.png" alt="Logo" width="130" style="border-radius: 50%; border: 2px solid #FFD700; box-shadow: 0px 0px 25px rgba(255, 215, 0, 0.4);" />
+  <!-- Glowing Logo (Static but with a nice shadow) -->
+  <img src="logo.png" alt="Logo" width="130" style="border-radius: 50%; border: 2px solid #FFD700; box-shadow: 0px 0px 20px rgba(255, 215, 0, 0.3);" />
   <br><br>
   <p style="font-family: 'Segoe UI', sans-serif; font-size: 18px; color: #c9d1d9; letter-spacing: 1px;">
     <b>Cybersecurity</b> | <b>Penetration Testing</b> | <b>Systems</b>
@@ -35,13 +63,11 @@
 
 <hr style="border: 1px solid #30363d;">
 
-<!-- Technologies & Tools (Complete Cyber Security Stack) -->
+<!-- Technologies & Tools -->
 <h2 style="font-family: 'Segoe UI', sans-serif; font-weight: 600; color: #ffffff;">Technologies & Tools</h2>
 <div align="center">
-  <!-- Programming & OS -->
   <img src="https://skillicons.dev/icons?i=linux,bash,python,php,html,c,vscode,git,github&theme=dark" alt="Tech Stack" style="margin-bottom: 15px;" />
   <br>
-  <!-- Cyber Security Tools (Text Badges for Premium Look) -->
   <img src="https://img.shields.io/badge/Wireshark-0d1117?style=for-the-badge&logo=wireshark&logoColor=FFD700&borderColor=30363d" alt="Wireshark">
   <img src="https://img.shields.io/badge/Nmap-0d1117?style=for-the-badge&logo=nmap&logoColor=FFD700&borderColor=30363d" alt="Nmap">
   <img src="https://img.shields.io/badge/Metasploit-0d1117?style=for-the-badge&logo=metasploit&logoColor=FFD700&borderColor=30363d" alt="Metasploit">
@@ -52,7 +78,7 @@
 
 <hr style="border: 1px solid #30363d;">
 
-<!-- Featured Projects (All your projects added) -->
+<!-- Featured Projects -->
 <h2 style="font-family: 'Segoe UI', sans-serif; font-weight: 600; color: #ffffff;">Featured Projects</h2>
 <table style="width: 100%; border-collapse: collapse; font-family: 'Segoe UI', sans-serif; font-size: 14px; color: #c9d1d9;">
   <thead>
